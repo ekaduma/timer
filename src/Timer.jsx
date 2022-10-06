@@ -16,7 +16,7 @@ const Timer = ({ data }) => {
 
   return (
     <tbody>
-      <tr className="bg-green-300 text-center border-2 text-white">
+      <tr className="bg-yellow-300 text-center border-2 text-white">
         <td className="p-1">{data.title}</td>
         <td>{done ? "Waktu Habis" : timer}</td>
       </tr>
