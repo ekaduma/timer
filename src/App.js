@@ -35,7 +35,7 @@ function App() {
             setInput({ ...input, text: e.target.value });
           }}
         ></input>
-        <button className="bg-green-300 p-2 rounded-md shadow-md text-white font-semibold" onClick={onSubmit}>
+        <button className="bg-yellow-300 p-2 rounded-md shadow-md text-white" onClick={onSubmit}>
           Add
         </button>
       </form>
